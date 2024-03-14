@@ -7,7 +7,6 @@ class DCMotor:
         self.enable_pin=enable_pin
         self.min_duty = min_duty
         self.max_duty = max_duty
-        print("Init")
 
     def forward(self,speed):
         self.speed = speed
